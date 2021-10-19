@@ -1,0 +1,15 @@
+{
+  "defaultConfigs": {
+    "save": false,
+    "returnEntity": true,
+  },
+  "apis": {
+    "/api/test-questions": {
+      "get": {
+        "operation": "read",
+        "dataJsonPath": "./data/test-questions.json",
+        "readOne": false,
+      },
+    },
+  }
+}
